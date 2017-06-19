@@ -280,6 +280,7 @@ body {
 
 .product--size-link__active {
     border: 1px solid #000;
+    color: #000;
 }
 
 .user-action--link {
