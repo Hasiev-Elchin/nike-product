@@ -274,13 +274,12 @@ body {
     color: #000;
 }
 
-.product--size-link:hover {
+.product--size-link:hover:not(.product--size-link__active) {
     color: #ffa60d;
 }
 
 .product--size-link__active {
     border: 1px solid #000;
-    color: #000;
 }
 
 .user-action--link {
