@@ -68,8 +68,13 @@ body {
     color: #fff;
 }
 
-.navigation-list--link:hover {
+.navigation-list--link:hover:not(.navigation-list--link__active) {
     color: #5e4fff;
+}
+
+.navigation-list--link__active {
+	border-bottom: 1px solid #fff;
+	cursor: default;
 }
 
 .navigation-list--link__uncover {
@@ -280,6 +285,7 @@ body {
 
 .product--size-link__active {
     border: 1px solid #000;
+    cursor: default;
 }
 
 .user-action--link {
